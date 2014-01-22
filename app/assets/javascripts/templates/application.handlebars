@@ -1,13 +1,22 @@
-<header id="header">
-  <h2>{{#linkTo "index"}}Home{{/linkTo}}</h2>
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand">Overlay Games</a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li>{{#linkTo "games"}}Games{{/linkTo}}</li>
+        <li>{{#linkTo "index"}}Overlays{{/linkTo}}</li>
+        <li>{{#linkTo "index"}}About{{/linkTo}}</li>
+        <li>{{#linkTo "index"}}Request a Game{{/linkTo}}</li>
+      </ul>
+    </div>
+    </div>
+  </div>
+</nav>
 
-  <nav>
-    <ul>
-      <li>{{#linkTo "games"}}Games{{/linkTo}}</li>
-    </ul>
-  </nav>
-</header>
-
-<div id="content">
-  {{outlet}}
+<div id="content" class="container">
+  <div class="jumbotron">
+    {{outlet}}
+  </div>
 </div>
