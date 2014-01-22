@@ -1,5 +1,14 @@
 Overlaygames::Application.routes.draw do
-  resources :games
+  # get "ember/start"
+  # resources :games
+
+  namespace :api do
+    namespace :v1 do
+      resources :games
+    end
+  end
+
+  root "ember#start"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
