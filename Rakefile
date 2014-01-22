@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Overlaygames::Application.load_tasks
+OverlaidGames::Application.load_tasks

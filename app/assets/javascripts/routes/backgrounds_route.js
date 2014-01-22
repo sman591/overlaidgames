@@ -1,5 +1,5 @@
-Overlaygames.BackgroundsRoute = Ember.Route.extend({
+Overlaidgames.BackgroundsRoute = Ember.Route.extend({
   model: function() {
-    return Overlaygames.Background.find();
+    return Overlaidgames.Background.find();
   }
 });

@@ -1,6 +1,6 @@
 // for more details see: http://emberjs.com/guides/models/defining-models/
 
-Overlaygames.Game = DS.Model.extend({
+Overlaidgames.Game = DS.Model.extend({
   title: DS.attr('string'),
   slug: DS.attr('string'),
   file: DS.attr('string'),

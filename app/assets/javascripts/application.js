@@ -18,9 +18,9 @@
 //= require ember
 //= require ember-data
 //= require_self
-//= require overlaygames
+//= require overlaidgames
 
 // for more details see: http://emberjs.com/guides/application/
-Overlaygames = Ember.Application.create();
+Overlaidgames = Ember.Application.create();
 
 //= require_tree .

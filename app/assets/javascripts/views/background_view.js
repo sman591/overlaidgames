@@ -1,5 +1,5 @@
 // for more details see: http://emberjs.com/guides/views/
 
-Overlaygames.BackgroundView = Ember.View.extend({
+Overlaidgames.BackgroundView = Ember.View.extend({
   templateName: 'background'
 });

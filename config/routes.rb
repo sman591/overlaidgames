@@ -1,4 +1,4 @@
-Overlaygames::Application.routes.draw do
+OverlaidGames::Application.routes.draw do
 
   # get "ember/start"
   # resources :games

@@ -1,5 +1,5 @@
-Overlaygames.GamesRoute = Ember.Route.extend({
+Overlaidgames.GamesRoute = Ember.Route.extend({
   model: function() {
-    return Overlaygames.Game.find();
+    return Overlaidgames.Game.find();
   }
 });

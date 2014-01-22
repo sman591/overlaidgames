@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class OverlayTest < ActiveSupport::TestCase
+class OverlaidTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
