@@ -18,8 +18,8 @@ Game.create(
   enabled: true
 )
 
-Overlay.create(
-  title: "A Sample Overlay",
+Background.create(
+  title: "A Sample Background",
   slug: "sample",
   file: "sample.jpg",
   uses: 0,

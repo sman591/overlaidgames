@@ -1,5 +1,4 @@
 Overlaygames::Application.routes.draw do
-  resources :overlays
 
   # get "ember/start"
   # resources :games
@@ -7,7 +6,7 @@ Overlaygames::Application.routes.draw do
   namespace :api do
     namespace :v1 do
       resources :games
-      resources :overlays
+      resources :backgrounds
     end
   end
 

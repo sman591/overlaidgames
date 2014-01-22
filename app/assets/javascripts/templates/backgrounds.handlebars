@@ -1,0 +1,11 @@
+<h1>Backgrounds</h1>
+
+<ul>
+  {{#each controller}}
+    <li>{{#linkTo "background" this}}{{title}}{{/linkTo}}</li>
+  {{else}}
+    <li>There are no backgrounds.</li>
+  {{/each}}
+</ul>
+
+{{outlet}}

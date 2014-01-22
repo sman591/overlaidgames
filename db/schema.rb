@@ -11,10 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140122054900) do
+ActiveRecord::Schema.define(version: 20140122200001) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "backgrounds", force: true do |t|
+    t.string   "title"
+    t.string   "slug"
+    t.string   "file"
+    t.integer  "uses"
+    t.boolean  "enabled"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "games", force: true do |t|
     t.string   "title"
@@ -23,16 +33,6 @@ ActiveRecord::Schema.define(version: 20140122054900) do
     t.boolean  "custom_embed"
     t.text     "embed_code"
     t.integer  "views"
-    t.boolean  "enabled"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "overlays", force: true do |t|
-    t.string   "title"
-    t.string   "slug"
-    t.string   "file"
-    t.integer  "uses"
     t.boolean  "enabled"
     t.datetime "created_at"
     t.datetime "updated_at"
