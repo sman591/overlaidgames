@@ -12,7 +12,7 @@ gem "rails", "4.0.0"
 gem "ember-rails"
 gem "foreman"
 gem "jquery-rails"
-gem "mysql2"
+gem "pg"
 gem "sass-rails", "~> 4.0.0"
 gem "uglifier", ">= 1.3.0"
 
