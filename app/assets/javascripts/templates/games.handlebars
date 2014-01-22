@@ -1,0 +1,11 @@
+<h1>Games</h1>
+
+<ul>
+  {{#each controller}}
+    <li>{{#linkTo "game" this}}{{title}}{{/linkTo}}</li>
+  {{else}}
+    <li>There are no games.</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
