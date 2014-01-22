@@ -5,3 +5,17 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+puts "Seeding..."
+
+Game.create(
+  title: "A Sample Game",
+  slug: "sample",
+  file: "sample.swf",
+  custom_embed: false,
+  embed_code: "",
+  views: 0,
+  enabled: true
+)
+
+puts "Complete!"

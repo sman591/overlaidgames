@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  slug: MyString
+  file: MyString
+  custom_embed: false
+  embed_code: MyText
+  views: 1
+  enabled: false
+
+two:
+  title: MyString
+  slug: MyString
+  file: MyString
+  custom_embed: false
+  embed_code: MyText
+  views: 1
+  enabled: false
