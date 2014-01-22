@@ -1,2 +1,0 @@
-class OverlaysController < ApplicationController
-end
