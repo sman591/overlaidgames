@@ -1,4 +1,6 @@
 Overlaid Games
 ============
 
-Currently following the tutorial at https://github.com/tonycoco/ember_tester
+Play games with a custom browser background.
+
+Basic setup of Ember.js + Rails: https://github.com/tonycoco/ember_tester
