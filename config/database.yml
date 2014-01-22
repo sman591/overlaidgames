@@ -26,10 +26,8 @@ test:
   password:
 
 production:
-  adapter: mysql2
-  encoding: utf8
-  database: overlaygames_production
+  adapter: postgresql
+  encoding: unicode
+  database: overlaidgames_production
   pool: 5
-  username: root
   password:
-  socket: /tmp/mysql.sock
