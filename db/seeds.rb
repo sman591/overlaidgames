@@ -18,4 +18,12 @@ Game.create(
   enabled: true
 )
 
+Overlay.create(
+  title: "A Sample Overlay",
+  slug: "sample",
+  file: "sample.jpg",
+  uses: 0,
+  enabled: true
+)
+
 puts "Complete!"
