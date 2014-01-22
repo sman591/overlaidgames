@@ -5,4 +5,6 @@ Overlaygames.Router.map(function() {
   this.resource("overlays", function() {
     this.resource("overlay", { path: ":overlay_id" });
   });
+  this.resource("about");
+  this.resource("request");
 });
