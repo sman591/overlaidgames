@@ -5,10 +5,10 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li>{{#linkTo "games"}}Games{{/linkTo}}</li>
-        <li>{{#linkTo "backgrounds"}}Backgrounds{{/linkTo}}</li>
-        <li>{{#linkTo "about"}}About{{/linkTo}}</li>
-        <li>{{#linkTo "request"}}Make a Request{{/linkTo}}</li>
+        {{#linkTo "games" tagName="li" href=false}}<a {{bindAttr href="view.href"}}>Games</a>{{/linkTo}}
+        {{#linkTo "backgrounds" tagName="li" href=false}}<a {{bindAttr href="view.href"}}>Backgrounds</a>{{/linkTo}}
+        {{#linkTo "about" tagName="li" href=false}}<a {{bindAttr href="view.href"}}>About</a>{{/linkTo}}
+        {{#linkTo "request" tagName="li" href=false}}<a {{bindAttr href="view.href"}}>Make a Request</a>{{/linkTo}}
       </ul>
     </div>
     </div>
