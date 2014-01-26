@@ -15,6 +15,8 @@ Game.create(
   custom_embed: false,
   embed_code: "",
   views: 0,
+  width: 640,
+  height: 500,
   enabled: true
 )
 
