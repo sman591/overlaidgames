@@ -3,14 +3,14 @@
 Overlaidgames.Game = DS.Model.extend({
   title: DS.attr('string'),
   slug: DS.attr('string'),
-  file: DS.attr('string'),
+  src: DS.attr('string'),
   width: DS.attr('number'),
   height: DS.attr('number'),
   customEmbed: DS.attr('boolean'),
   embedCode: DS.attr('string'),
   views: DS.attr('number'),
   enabled: DS.attr('boolean'),
-  src: function() {
-    return "http://belmontridgemiddleschool.com/files/" + this.get('slug') + ".swf";
+  src_full: function() {
+    return "http://belmontridgemiddleschool.com/files/" + this.get('src');
   }.property('slug')
 });

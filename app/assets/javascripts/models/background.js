@@ -3,7 +3,7 @@
 Overlaidgames.Background = DS.Model.extend({
   title: DS.attr('string'),
   slug: DS.attr('string'),
-  file: DS.attr('string'),
+  src: DS.attr('string'),
   uses: DS.attr('number'),
   enabled: DS.attr('boolean')
 });

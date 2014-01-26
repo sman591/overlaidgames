@@ -11,7 +11,7 @@ puts "Seeding..."
 Game.create(
   title: "A Sample Game",
   slug: "sample",
-  file: "sample.swf",
+  src: "sample.swf",
   custom_embed: false,
   embed_code: "",
   views: 0,
@@ -23,7 +23,7 @@ Game.create(
 Background.create(
   title: "A Sample Background",
   slug: "sample",
-  file: "sample.jpg",
+  src: "sample.jpg",
   uses: 0,
   enabled: true
 )

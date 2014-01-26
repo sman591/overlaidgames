@@ -1,3 +1,3 @@
 class BackgroundSerializer < ActiveModel::Serializer
-  attributes :id, :title, :slug, :file, :uses, :enabled
+  attributes :id, :title, :slug, :src, :uses, :enabled
 end
