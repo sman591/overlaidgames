@@ -11,6 +11,9 @@ Overlaidgames.Game = DS.Model.extend({
   views: DS.attr('number'),
   enabled: DS.attr('boolean'),
   src_full: function() {
+    var website_regex = /^(http(s?):\/\/)/;
+    if (website_regex.test(this.get('src')))
+      return this.get('src');
     return "http://belmontridgemiddleschool.com/files/" + this.get('src');
-  }.property('slug')
+  }.property('src')
 });
