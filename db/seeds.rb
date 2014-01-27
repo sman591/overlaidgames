@@ -9,21 +9,40 @@
 puts "Seeding..."
 
 Game.create(
-  title: "A Sample Game",
-  slug: "sample",
-  src: "sample.swf",
+  title: "Fishy",
+  slug: "fishy",
+  src: "fishy.swf",
   custom_embed: false,
   embed_code: "",
   views: 0,
+  width: 550,
+  height: 400,
+  enabled: true
+)
+
+Game.create(
+  title: "Bloons Tower Defence 4",
+  slug: "bloonstd4",
+  src: "bloonstd4.swf",
+  custom_embed: false,
+  views: 0,
   width: 640,
-  height: 500,
+  height: 640,
   enabled: true
 )
 
 Background.create(
-  title: "A Sample Background",
-  slug: "sample",
-  src: "sample.jpg",
+  title: "Stone Bridge High School",
+  slug: "sbhs",
+  src: "http://lcps.org/sbhs",
+  uses: 0,
+  enabled: true
+)
+
+Background.create(
+  title: "Bubbles",
+  slug: "bubbles1",
+  src: "bubbles1.jpg",
   uses: 0,
   enabled: true
 )
