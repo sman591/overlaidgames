@@ -1,14 +1,14 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      {{#linkTo "index" classNames="navbar-brand"}}Overlaid Games{{/linkTo}}
+      {{#link-to "index" classNames="navbar-brand"}}Overlaid Games{{/link-to}}
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
-        {{#linkTo "games" tagName="li" href=false}}<a {{bindAttr href="view.href"}}>Games</a>{{/linkTo}}
-        {{#linkTo "backgrounds" tagName="li" href=false}}<a {{bindAttr href="view.href"}}>Backgrounds</a>{{/linkTo}}
-        {{#linkTo "about" tagName="li" href=false}}<a {{bindAttr href="view.href"}}>About</a>{{/linkTo}}
-        {{#linkTo "request" tagName="li" href=false}}<a {{bindAttr href="view.href"}}>Make a Request</a>{{/linkTo}}
+        {{#link-to "games" tagName="li" href=false}}<a {{bind-attr href="view.href"}}>Games</a>{{/link-to}}
+        {{#link-to "backgrounds" tagName="li" href=false}}<a {{bind-attr href="view.href"}}>Backgrounds</a>{{/link-to}}
+        {{#link-to "about" tagName="li" href=false}}<a {{bind-attr href="view.href"}}>About</a>{{/link-to}}
+        {{#link-to "request" tagName="li" href=false}}<a {{bind-attr href="view.href"}}>Make a Request</a>{{/link-to}}
       </ul>
     </div>
     </div>

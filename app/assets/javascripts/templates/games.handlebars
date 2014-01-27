@@ -2,7 +2,7 @@
 
 <ul>
   {{#each controller}}
-    <li>{{#linkTo "game" this}}{{title}}{{/linkTo}}</li>
+    <li>{{#link-to "game" this}}{{title}}{{/link-to}}</li>
   {{else}}
     <li>There are no games.</li>
   {{/each}}
