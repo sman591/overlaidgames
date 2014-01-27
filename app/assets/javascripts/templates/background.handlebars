@@ -1,1 +1,5 @@
-<h1>{{title}}</h1>
+{{#if isWebsite}}
+  <iframe id="background" {{bind-attr src="src"}}></iframe>
+{{else}}
+  <div id="background" {{bind-attr style="divStyle"}}></div>
+{{/if}}
