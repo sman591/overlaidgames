@@ -15,5 +15,12 @@ Overlaidgames.Game = DS.Model.extend({
     if (website_regex.test(this.get('src')))
       return this.get('src');
     return "http://belmontridgemiddleschool.com/files/" + this.get('src');
-  }.property('src')
+  }.property('src'),
+  attObj: function() {
+    return {
+      data: this.get('src_full'),
+      width: this.get('width'),
+      height: this.get('height')
+    };
+  }
 });

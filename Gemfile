@@ -16,6 +16,8 @@ gem "pg"
 gem "sass-rails", "~> 4.0.0"
 gem "uglifier", ">= 1.3.0"
 
+gem "swfobject-rails"
+
 gem 'bootstrap-sass', '~> 3.0.3.0'
 
 group :production do

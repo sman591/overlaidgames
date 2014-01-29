@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require jquery
 //= require bootstrap
+//= require swfobject
 //= require handlebars
 //= require ember
 //= require ember-data
